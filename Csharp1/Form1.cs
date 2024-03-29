@@ -21,16 +21,14 @@ namespace Csharp1
         {
             try
             {
-                byte textoUsuario = Convert.ToByte(txtNombre.Text);
-                lblBienvenido.Text = textoUsuario.ToString();
+                string bienvenida = " bienvenido al curso de CSharp";
+                string textoUsuario = "holas " + txtNombre.Text + bienvenida;
+                lblBienvenido.Text = textoUsuario;
+
             }
-            catch (OverflowException varCaptura)
+            catch (Exception varCaptura)
             {
                 MessageBox.Show("Error atrapado en catch :  " + varCaptura);
-            }
-            catch (FormatException varCaptura1)
-            {
-                MessageBox.Show("Error, formato incorrecto :  " + varCaptura1);
             }
 
         }
