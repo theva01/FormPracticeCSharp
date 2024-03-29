@@ -16,7 +16,7 @@ namespace Csharp1
         static void Main()
         {
             #region Primer turotial Csharp en consola
-            // string Nombre = "Anderson";
+            string Nombre = "Anderson";
 
             // int num1 = 450444;
             // uint num2 = 500; //uint nunca valor negativo
@@ -25,7 +25,7 @@ namespace Csharp1
             // decimal num5 = 7983456.974323m;//m indica decimal (calculos gigantes)
             // byte num6 = 255;//maximo 255
 
-            //// MessageBox.Show(Nombre);
+            MessageBox.Show(Nombre);
             // //MessageBox.Show(num3.ToString());//Conversion
 
             // bool acceso = true;
