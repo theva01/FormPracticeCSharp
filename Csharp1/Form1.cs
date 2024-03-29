@@ -24,28 +24,26 @@ namespace Csharp1
             try
             {
 
-                if (user == "Anderson")
-                {
-
-                    MessageBox.Show("Accediste correctamente al usuario");
-
-                    if (Convert.ToInt32(password) < 199)
-                    {
-                        MessageBox.Show("Accediste correctamente con contraseña meno a 200");
-                    }
-                    else if (Convert.ToInt32(password) > 201)
-                    {
-                        MessageBox.Show("Accediste correctamente con contraseña mayor a 200");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Clave Incorrectamenta");
-                    }
-
-                }
-                else
-                {
-                    MessageBox.Show("Datos incorrectos, intenta de nuevo");
+                switch (user) 
+                { 
+                    case "Eduardo":
+                        MessageBox.Show("Ingreso Correctamente Eduardo");
+                        switch (password)
+                        {
+                            case "123":
+                                MessageBox.Show("Correctamente la contraseña");
+                                break;
+                            default:
+                                MessageBox.Show("la contraseña es InCorrecta ");
+                                break;
+                        }
+                        break;
+                    case "Anderson":
+                        MessageBox.Show("Ingreso Correctamente Anderson");
+                        break;
+                    default:
+                        MessageBox.Show("Accion Invalida, intente nuevamente");
+                        break;
                 }
 
             }

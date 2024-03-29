@@ -15,9 +15,20 @@ namespace Csharp1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+            string varPrueba = "";
+            int x = 0;
+            
+            do {
+                varPrueba += x.ToString() + "-";
+
+                x++;
+            } while ( x > 10 );
+            MessageBox.Show( varPrueba );
+
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
         }
     }
 }
