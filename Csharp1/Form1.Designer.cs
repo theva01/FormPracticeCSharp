@@ -28,55 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Ok = new System.Windows.Forms.Button();
-            this.btn_Close = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_Nombre = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btn_Ok
+            // btnOK
             // 
-            this.btn_Ok.Location = new System.Drawing.Point(338, 302);
-            this.btn_Ok.Name = "btn_Ok";
-            this.btn_Ok.Size = new System.Drawing.Size(139, 57);
-            this.btn_Ok.TabIndex = 0;
-            this.btn_Ok.Text = "OK";
-            this.btn_Ok.UseVisualStyleBackColor = true;
+            this.btnOK.Location = new System.Drawing.Point(225, 287);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(139, 57);
+            this.btnOK.TabIndex = 0;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // btn_Close
+            // btnClose
             // 
-            this.btn_Close.Location = new System.Drawing.Point(520, 302);
-            this.btn_Close.Name = "btn_Close";
-            this.btn_Close.Size = new System.Drawing.Size(132, 57);
-            this.btn_Close.TabIndex = 1;
-            this.btn_Close.Text = "CLOSE";
-            this.btn_Close.UseVisualStyleBackColor = true;
+            this.btnClose.Location = new System.Drawing.Point(407, 287);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(132, 57);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.Text = "CLOSE";
+            this.btnClose.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(349, 194);
+            this.label1.Location = new System.Drawing.Point(225, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Bienvenido:";
             // 
-            // txt_Nombre
+            // txtNombre
             // 
-            this.txt_Nombre.Location = new System.Drawing.Point(418, 191);
-            this.txt_Nombre.Name = "txt_Nombre";
-            this.txt_Nombre.Size = new System.Drawing.Size(198, 20);
-            this.txt_Nombre.TabIndex = 3;
+            this.txtNombre.Location = new System.Drawing.Point(294, 99);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(198, 20);
+            this.txtNombre.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txt_Nombre);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn_Close);
-            this.Controls.Add(this.btn_Ok);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnOK);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -86,10 +87,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Ok;
-        private System.Windows.Forms.Button btn_Close;
+        private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_Nombre;
+        private System.Windows.Forms.TextBox txtNombre;
     }
 }
 

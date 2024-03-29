@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|solutionrelative:csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|c:\\users\\eva_01\\documents\\formpracticecsharp\\csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|solutionrelative:csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|c:\\users\\eva_01\\documents\\formpracticecsharp\\csharp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\csharp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|solutionrelative:csharp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|c:\\users\\eva_01\\documents\\formpracticecsharp\\csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9C79D70-9218-4132-BB70-85A02579987C}|Csharp1\\Csharp1.csproj|solutionrelative:csharp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "Csharp1\\Program.cs",
               "ToolTip": "C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\Csharp1\\Program.cs",
               "RelativeToolTip": "Csharp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T23:44:13.211Z",
               "EditorCaption": ""
@@ -36,6 +40,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\Csharp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Csharp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\Csharp1\\Form1.cs",
+              "RelativeToolTip": "Csharp1\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T03:47:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\eva_01\\Documents\\FormPracticeCSharp\\Csharp1\\Form1.cs",
               "RelativeDocumentMoniker": "Csharp1\\Form1.cs",

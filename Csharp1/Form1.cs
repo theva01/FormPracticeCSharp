@@ -17,5 +17,9 @@ namespace Csharp1
             InitializeComponent();
         }
 
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

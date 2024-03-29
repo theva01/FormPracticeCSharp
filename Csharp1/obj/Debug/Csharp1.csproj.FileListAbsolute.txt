@@ -8,3 +8,13 @@ C:\Users\eva_01\source\repos\Csharp1\Csharp1\obj\Debug\Csharp1.csproj.CoreCompil
 C:\Users\eva_01\source\repos\Csharp1\Csharp1\obj\Debug\Csharp1.exe
 C:\Users\eva_01\source\repos\Csharp1\Csharp1\obj\Debug\Csharp1.pdb
 C:\Users\eva_01\source\repos\Csharp1\Csharp1\obj\Debug\Csharp1.Form1.resources
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\bin\Debug\Csharp1.exe.config
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\bin\Debug\Csharp1.exe
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\bin\Debug\Csharp1.pdb
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.csproj.AssemblyReference.cache
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.Form1.resources
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.Properties.Resources.resources
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.csproj.GenerateResource.cache
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.csproj.CoreCompileInputs.cache
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.exe
+C:\Users\eva_01\Documents\FormPracticeCSharp\Csharp1\obj\Debug\Csharp1.pdb
