@@ -25,23 +25,7 @@ namespace Csharp1
             // decimal num5 = 7983456.974323m;//m indica decimal (calculos gigantes)
             // byte num6 = 255;//maximo 255
 
-            MessageBox.Show(Nombre);
-            // //MessageBox.Show(num3.ToString());//Conversion
-
-            // bool acceso = true;
-            //// MessageBox.Show(acceso.ToString());
-
-            // DateTime fecha = DateTime.Now;
-            // //MessageBox.Show(fecha.ToShortDateString().ToString());
-
-            // //int num7 = 43;
-            // //int num8 = 50;
-            // //int num9 = 100;
-            // //int num10 = 200;
-            // //int num12 = 500;mucho espacio vertical para crear variables
-
-            // int num7, num8, num9, num10, num11;
-            // num7 = 39; num8 = 33; num9 = 213; num10 = 100; num11 = 104;
+            //quitando texto como ejemplo de arregloRapido hotfix
 
             // const string dato = "Hola puebas constante";
             // //dato = "cambio constante";
