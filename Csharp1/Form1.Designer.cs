@@ -30,7 +30,7 @@
         {
             this.btnOK = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblBienvenido = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -52,15 +52,16 @@
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "CLOSE";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // label1
+            // lblBienvenido
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 102);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Bienvenido:";
+            this.lblBienvenido.AutoSize = true;
+            this.lblBienvenido.Location = new System.Drawing.Point(225, 102);
+            this.lblBienvenido.Name = "lblBienvenido";
+            this.lblBienvenido.Size = new System.Drawing.Size(63, 13);
+            this.lblBienvenido.TabIndex = 2;
+            this.lblBienvenido.Text = "Bienvenido:";
             // 
             // txtNombre
             // 
@@ -75,7 +76,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblBienvenido);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOK);
             this.Name = "Form1";
@@ -89,7 +90,7 @@
 
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblBienvenido;
         private System.Windows.Forms.TextBox txtNombre;
     }
 }
