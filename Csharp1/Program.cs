@@ -17,7 +17,7 @@ namespace Csharp1
         {
             #region Primer turotial Csharp en consola
             string Nombre = "Anderson";
-
+            string Cambio = "Feature";
             // int num1 = 450444;
             // uint num2 = 500; //uint nunca valor negativo
             // float num3 = 99.3f;// f indica numero flotante (mas precision decimal)
