@@ -30,13 +30,15 @@
         {
             this.btnOK = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.lblBienvenido = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblUser = new System.Windows.Forms.Label();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(225, 287);
+            this.btnOK.Location = new System.Drawing.Point(147, 308);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(139, 57);
             this.btnOK.TabIndex = 0;
@@ -46,7 +48,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(407, 287);
+            this.btnClose.Location = new System.Drawing.Point(508, 308);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(132, 57);
             this.btnClose.TabIndex = 1;
@@ -54,29 +56,48 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // lblBienvenido
+            // lblUser
             // 
-            this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Location = new System.Drawing.Point(225, 102);
-            this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(63, 13);
-            this.lblBienvenido.TabIndex = 2;
-            this.lblBienvenido.Text = "Bienvenido:";
+            this.lblUser.AutoSize = true;
+            this.lblUser.Location = new System.Drawing.Point(268, 91);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(37, 13);
+            this.lblUser.TabIndex = 2;
+            this.lblUser.Text = "USER";
             // 
-            // txtNombre
+            // txtUser
             // 
-            this.txtNombre.Location = new System.Drawing.Point(281, 118);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(198, 20);
-            this.txtNombre.TabIndex = 3;
+            this.txtUser.Location = new System.Drawing.Point(327, 88);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(198, 20);
+            this.txtUser.TabIndex = 3;
+            this.txtUser.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(327, 183);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(198, 20);
+            this.txtPassword.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(235, 186);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "PASSWORD";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.lblBienvenido);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.lblUser);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOK);
             this.Name = "Form1";
@@ -90,8 +111,10 @@
 
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Label lblBienvenido;
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.Label lblUser;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label1;
     }
 }
 
