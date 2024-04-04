@@ -27,7 +27,35 @@ namespace Csharp1
             numeros2[5] = 0;
             numeros2[6] = 436;
 
-            MessageBox.Show(numeros2[4].ToString());
+
+
+            //for (int i = 0; i < numeros2.Length; i++)
+            //{
+            //    MessageBox.Show(numeros2[i].ToString());
+            //}
+
+            int[,] matriz = new int[5,5];
+
+            for(int i = 0; i < matriz.GetLength(0); i++)//i filas
+            {
+                for(int j = 0; j < matriz.GetLength(1); j++)//j columnas
+                {
+
+                    matriz[i, j] = 10 * (i+1)*(j+1);
+
+                }
+            }
+
+            for (int i = 0; i < matriz.GetLength(0); i++)//i filas
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)//j columnas
+                {
+
+                    MessageBox.Show("La posicion es: " + i + "," + j + "=" + matriz[i, j].ToString());
+
+                }
+            }
+
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
