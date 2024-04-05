@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,12 +17,16 @@ namespace Csharp1
         static void Main()
         {
 
+            ArrayList lista = new ArrayList();
 
-            int[] numeros2 = { 3, 44, 6 };
+            lista.Add("LabelEditEventArgs");
+            lista.Add(32232);
+            lista.Add(lista.ToArray());
+            lista.Add(333);
 
-            foreach (var datoNum in numeros2)
+            foreach (var i in lista)
             {
-                MessageBox.Show(datoNum.ToString());
+                MessageBox.Show(i.ToString());
             }
 
             //Application.EnableVisualStyles();
