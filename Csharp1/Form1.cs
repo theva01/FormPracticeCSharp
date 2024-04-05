@@ -12,6 +12,7 @@ namespace Csharp1
 {
     public partial class Form1 : Form
     {
+        List<string> listaNombres = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -20,38 +21,11 @@ namespace Csharp1
         private void btnOK_Click(object sender, EventArgs e)
         {
 
-            string user = txtUser.Text, password = txtPassword.Text;
-            try
-            {
-
-                switch (user) 
-                { 
-                    case "Eduardo":
-                        MessageBox.Show("Ingreso Correctamente Eduardo");
-                        switch (password)
-                        {
-                            case "123":
-                                MessageBox.Show("Correctamente la contraseña");
-                                break;
-                            default:
-                                MessageBox.Show("la contraseña es InCorrecta ");
-                                break;
-                        }
-                        break;
-                    case "Anderson":
-                        MessageBox.Show("Ingreso Correctamente Anderson");
-                        break;
-                    default:
-                        MessageBox.Show("Accion Invalida, intente nuevamente");
-                        break;
-                }
-
-            }
-            catch (Exception varCaptura)
-            {
-                MessageBox.Show("Error atrapado en catch :  " + varCaptura);
-            }
-
+            string nombre;
+            nombre = txtNombres.Text;
+            listaNombres.Add(nombre);
+            listNombres.DataSource = null;
+            listNombres.DataSource = listaNombres;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -60,6 +34,32 @@ namespace Csharp1
         }
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            listaNombres.Remove(txtNombres.Text);
+            listNombres.DataSource = null;
+            listNombres.DataSource = listaNombres;
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            var indice = listaNombres.IndexOf(txtNombreCambiar.Text);
+            listaNombres.RemoveAt(indice);
+            listaNombres.Insert(indice, txtNombres.Text.Trim());
+            listNombres.DataSource = null;
+            listNombres.DataSource = listaNombres;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
